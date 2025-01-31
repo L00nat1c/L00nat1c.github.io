@@ -1,4 +1,4 @@
-#h1 {
+h1 {
     color: #A4A400;
     text-decoration: underline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -12,3 +12,7 @@ img {
 hr.solid {
     border-top: 3px solid gray;
   }
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
