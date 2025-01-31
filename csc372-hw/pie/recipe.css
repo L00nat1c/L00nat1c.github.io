@@ -49,8 +49,15 @@ ul {
 
 a {
     color: #A4A400;
+    text-align: left;
 }
 
 .link {
     width: 200pt;
+}
+
+.right-align {
+    text-align: right;
+    width: 180pt;
+    justify-content: left;
 }
