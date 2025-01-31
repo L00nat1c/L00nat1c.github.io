@@ -34,3 +34,7 @@ div {
     flex-direction: column;
     font-style: italic;
 }
+
+body {
+    background-image: url('silverware.jpg');
+}
