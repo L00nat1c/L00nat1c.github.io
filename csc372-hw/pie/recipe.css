@@ -8,3 +8,7 @@
 img {
     size: 1024px;
 }
+
+hr.solid {
+    border-top: 3px solid gray;
+  }
