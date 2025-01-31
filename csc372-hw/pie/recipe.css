@@ -27,13 +27,13 @@ h2 {
     font-weight: 22pt;
 }
 
-div {
-    background-color: #A4A400;
-    font-style: italic;
+.links {
+    
 }
 
 body {
     background-image: url('silverware.jpg');
+    color: #404040;
 }
 
 ul {
@@ -44,4 +44,6 @@ ul {
     margin: auto;
     width: 80%;
     border: 10pt solid #F0F0F0;
+    background-color: #A4A400;
+    font-style: italic;
   }
