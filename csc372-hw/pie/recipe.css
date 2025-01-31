@@ -5,6 +5,7 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #F0F0F0;
     font-weight: 22pt;
+    font-size: 22pt;
 }
 
 img {
@@ -24,16 +25,13 @@ h2 {
     text-decoration: underline;
     font-family: 'Lucida Sans';
     background-color: #F0F0F0;
-    font-weight: 22pt;
-}
-
-.links {
-    
+    font-size: 18pt;
 }
 
 body {
     background-image: url('silverware.jpg');
     color: #404040;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 ul {
@@ -46,4 +44,12 @@ ul {
     border: 10pt solid #F0F0F0;
     background-color: #A4A400;
     font-style: italic;
-  }
+}
+
+a {
+    color: #A4A400;
+}
+
+.link {
+
+}
