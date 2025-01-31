@@ -29,9 +29,6 @@ h2 {
 
 div {
     background-color: #A4A400;
-    align-items: center;
-    width: 50%;
-    flex-direction: column;
     font-style: italic;
 }
 
@@ -42,3 +39,9 @@ body {
 ul {
     list-style-image: url('pie_icon.gif');
 }
+
+.center {
+    margin: auto;
+    width: 80%;
+    border: 10pt solid #F0F0F0;
+  }
