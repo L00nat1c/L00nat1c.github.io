@@ -1,8 +1,14 @@
 img {
-    size: 10px;
+    size: 150px;
 }
+
 h1 {
     color: red;
     font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h2 {
+    text-decoration: underline;
     
 }
