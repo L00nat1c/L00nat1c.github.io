@@ -38,3 +38,7 @@ div {
 body {
     background-image: url('silverware.jpg');
 }
+
+ul {
+    list-style-image: url('pie_icon.gif');
+}
