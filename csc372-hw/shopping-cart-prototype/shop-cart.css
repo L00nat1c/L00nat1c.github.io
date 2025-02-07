@@ -7,6 +7,10 @@ header {
     margin: 10px;
 }
 
+#page-title {
+    text-align: center;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -35,4 +39,34 @@ header {
     float: right;
     background-color: #333;
     color: lightgray;
+}
+
+.list-product {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: paleturquoise;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: lavender;
+    width: 20%;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
 }
