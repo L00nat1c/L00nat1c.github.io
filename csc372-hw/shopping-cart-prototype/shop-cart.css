@@ -41,6 +41,11 @@ header {
     color: lightgray;
 }
 
+.topnav a.split:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
 .list-product {
     display: flex;
     flex-direction: row;
@@ -69,4 +74,13 @@ header {
     cursor: pointer;
     width: 100%;
     opacity: 0.8;
+}
+
+footer {
+    background-color: lightgrey;
+    text-align: left;
+    padding: 20px;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
 }
