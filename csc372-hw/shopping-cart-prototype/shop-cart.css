@@ -48,6 +48,7 @@ header {
 
 .list-product {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin: 5%;
     padding: 0;
@@ -58,6 +59,7 @@ header {
 .product-container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
     margin: 20px;
     background-color: lavender;
@@ -68,7 +70,7 @@ header {
 .button {
     background-color: #4CAF50;
     color: white;
-    padding: 14px 20px;
+    padding: 10px;
     margin: 8px 8px;
     border: none;
     cursor: pointer;
@@ -76,20 +78,13 @@ header {
     opacity: 0.8;
 }
 
-footer {
+.footer {
     background-color: lightgrey;
     text-align: left;
     padding: 20px;
     position: fixed;
     bottom: 10px;
     width: 100%;
-}
-
-.icon {
-    height: 25px;
-    width: 25px;
-    justify-content: center;
-
 }
 
 #center-search {
@@ -120,4 +115,9 @@ form.search button {
 
 form.search button:hover {
     background-color: #45a049;
+}
+
+.prod-icon {
+    max-width: 80%;
+    max-height: 80%;
 }
