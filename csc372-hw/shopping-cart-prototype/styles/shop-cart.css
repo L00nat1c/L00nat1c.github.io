@@ -46,6 +46,13 @@ header {
     background-color: greenyellow;
 }
 
+.home-detail {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
 .list-product {
     display: flex;
     flex-wrap: wrap;
