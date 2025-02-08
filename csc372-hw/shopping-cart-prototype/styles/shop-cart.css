@@ -79,6 +79,7 @@ header {
 .product-container {
     flex-direction: row;
     justify-content: space-around;
+    padding: 25px;
     margin: 20px;
     background-color: lavender;
     width: 20%;
