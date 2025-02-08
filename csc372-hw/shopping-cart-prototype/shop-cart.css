@@ -91,3 +91,33 @@ footer {
     justify-content: center;
 
 }
+
+form {
+    max-width: 60%;
+    margin-left: 25%;
+}
+
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid gray;
+    float: left;
+    width: 60%;
+    background: lavender;
+}
+
+form.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: palegreen;
+    color: black;
+    font-size: 17px;
+    border: 1px solid gray;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.search button:hover {
+    background-color: #45a049;
+}
