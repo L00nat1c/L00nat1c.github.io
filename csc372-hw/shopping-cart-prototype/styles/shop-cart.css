@@ -124,11 +124,34 @@ form.search button:hover {
 }
 
 .detail-body {
-    margin-top: 10px;
-    font-size: 16px;
-    text-align: justify;
-    border: 2px solid #333;
-    width: 80%;
+    margin: 20px;
     padding: 10px;
-    background: palegreen;
+    overflow: hidden;
+    background-color: paleturquoise;
+}
+
+.detail-img {
+    float: left;
+    width: 30%;
+    height: 20%;
+    margin: 20px;
+    background-color: lavender;
+    text-align: center;
+}
+
+.detail-info {
+    float: right;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    background-color: lavender;
+    text-align: left;
+}
+
+.detail-desc {
+    width: 96%;
+    margin-top: 250px;
+    background-color: lavender;
+    text-align: left;
+    padding: 10px;
 }
