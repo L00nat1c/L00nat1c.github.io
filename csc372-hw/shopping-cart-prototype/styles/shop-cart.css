@@ -67,6 +67,7 @@ header {
 }
 
 .list-product {
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
