@@ -5,7 +5,7 @@
 
 .topnav a {
     float: left;
-    color: lightgray;
+    color: darkblue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -13,13 +13,32 @@
 }
 
 .topnav a:hover {
-    background-color: greenyellow;
+    background-color: deepskyblue;
     color: black;
 }
 
 .topnav a.active {
-    background-color: greenyellow;
+    background-color: aqua;
     color: black;
+}
+
+body {
+    background-color: lightgray;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: #333 solid 1px;
+    padding: 20px 16px;
+}
+
+aside li {
+    list-style-type: none;
+    padding: 8px 0;
 }
 
 header {
@@ -29,14 +48,37 @@ header {
     font-size: 24px;
 }
 
+main {
+    display: flex;
+}
+
+article {
+    border: black solid;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
 #boj {
+    border: yellow solid;
 
 }
 
 #yum {
+    border: red solid;
 
 }
 
 #pizza {
-    
+    border: blue solid;
+
+}
+
+#intro {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border: #333 solid;
 }

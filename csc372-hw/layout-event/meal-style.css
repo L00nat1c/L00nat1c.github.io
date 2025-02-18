@@ -1,0 +1,61 @@
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: deepskyblue;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: aqua;
+    color: black;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#total-btn {
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#meal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+#my-rec {
+    display: flex;
+    background-color: lightgray;
+    border: #333 solid;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#your-plan {
+    display: flex;
+    background-color: lightgray;
+    border: #333 solid;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
