@@ -79,3 +79,11 @@ img {
 .price {
     padding-bottom: 20px;
 }
+
+
+footer {
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
