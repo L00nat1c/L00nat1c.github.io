@@ -66,13 +66,13 @@ article img {
     max-width: 300px;
 }
 
-.small-img {
+.small-image {
     width: 100px;
     border: #333 solid 1px;
     margin: 5px;
 }
 
-.big-img {
+.big-image {
     width: 300px;
     border: red solid 3px;
     margin: 5px;
