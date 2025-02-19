@@ -107,3 +107,12 @@ footer {
     text-align: center;
     color: white;
 }
+
+#notes {
+    background-color: palevioletred;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    border: #333 solid;
+    font-size: 14px;
+}
