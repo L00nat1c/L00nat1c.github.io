@@ -67,7 +67,6 @@ img {
 }
 
 #your-plan {
-    display: flex;
     background-color: lightgray;
     border: #333 solid;
     padding: 20px;
