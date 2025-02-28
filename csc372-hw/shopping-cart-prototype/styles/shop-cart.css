@@ -190,7 +190,7 @@ form.search button:hover {
 }
 
 .cart-item {
-    width: 20%;
+    width: 30%;
     text-align: center;
     background-color: lavenderblush;
     padding: 10px;
@@ -214,4 +214,23 @@ form.search button:hover {
     padding: 10px;
     background-color: lavender;
     text-align: left;
+}
+
+#checkout-but {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#qty-num {
+    width: 50%;
+    padding: 5px;
+    font-size: 17px;
+    border: 1px solid gray;
+    background: lavender;
+    margin: 20px;
 }
