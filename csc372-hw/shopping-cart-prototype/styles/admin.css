@@ -1,0 +1,48 @@
+header {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: greenyellow;
+    color: black;
+}
+
+.topnav a.split {
+    float: right;
+    background-color: #333;
+    color: lightgray;
+}
+
+.topnav a.split:hover {
+    color: black;
+    background-color: greenyellow;
+}
+
+.logo-img {
+    width: 75px;
+    height: 75px;
+}
