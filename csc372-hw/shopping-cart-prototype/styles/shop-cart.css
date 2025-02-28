@@ -178,10 +178,40 @@ form.search button:hover {
     padding: 10px;
 }
 
-.shopping-cart {
-
+.your-cart {
+    justify-content: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5%;
+    padding: 0;
+    overflow: hidden;
+    background-color: paleturquoise;
 }
 
 .cart-item {
-    
+    width: 20%;
+    text-align: center;
+    background-color: lavenderblush;
+    padding: 10px;
+    margin: 20PX;
+}
+
+.remove-but {
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    margin: 8px 8px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+}
+
+.cart-total {
+    float: right;
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    background-color: lavender;
+    text-align: left;
 }
