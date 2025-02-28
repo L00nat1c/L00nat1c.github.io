@@ -7,6 +7,10 @@ header {
     margin: 10px;
 }
 
+#page-title {
+    text-align: center;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -61,4 +65,14 @@ header {
 .admin-nav-img {
     max-width: 300px;
     max-height: 300px;
+}
+
+.edit-sec {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: khaki;
+    border: black solid;
+    width: 90%;
+    padding: 20px;
 }
