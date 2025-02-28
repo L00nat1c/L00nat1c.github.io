@@ -46,3 +46,19 @@ header {
     width: 75px;
     height: 75px;
 }
+
+.nav-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 80%;
+    background-color: khaki;
+    text-align: center;
+    padding: 10px;
+}
+
+.admin-nav-img {
+    max-width: 300px;
+    max-height: 300px;
+}
