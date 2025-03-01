@@ -75,7 +75,99 @@
              <td><img class="admin-nav-img" src="https://media.wired.com/photos/62eabb0e58719fe5c578ec7c/1:1/w_1334,h_1334,c_limit/What-To-Do-With-Old-PS4-Gear.jpg" alt="Product Image"></td>
              <td><a href="admin-product-edit.html?id=4">Edit</a> | <a href="#">Delete</a> | <a href="#">Archive</a></td>
          </tr>
+
+         <tr>
+             <td>5</td>
+             <td>Nintendo Switch OLED</td>
+             <td>A revolutionary console for gaming.</td>
+             <td>$399.99</td>
+             <td>Console</td>
+             <td><img class="admin-nav-img" src="https://craftbymerlin.com/cdn/shop/files/BlackMatteFront.jpg?v=1691669882" alt="Product Image"></td>
+             <td><a href="admin-product-edit.html?id=5">Edit</a> | <a href="#">Delete</a> | <a href="#">Archive</a></td>
+         </tr>
+
+         <tr>
+             <td>6</td>
+             <td>Xbox Series S Console</td>
+             <td>A revolutionary console for gaming.</td>
+             <td>$499.99</td>
+             <td>Console</td>
+             <td><img class="admin-nav-img" src="https://static1.pocketlintimages.com/wordpress/wp-content/uploads/2024/04/microsoft-xbox-one-s-console-1tb.jpg" alt="Product Image"></td>
+             <td><a href="admin-product-edit.html?id=6">Edit</a> | <a href="#">Delete</a> | <a href="#">Archive</a></td>
+         </tr>
+
+         <tr>
+             <td>7</td>
+             <td>PlayStation 3</td>
+             <td>A revolutionary console for gaming.</td>
+             <td>$299.99</td>
+             <td>Console</td>
+             <td><img class="admin-nav-img" src="https://media.wired.com/photos/59eac5587c0a2b6c3f3b6fe9/master/pass/sony_playstation_3_f.jpg" alt="Product Image"></td>
+             <td><a href="admin-product-edit.html?id=7">Edit</a> | <a href="#">Delete</a> | <a href="#">Archive</a></td>
+         </tr>
+
+         <tr>
+             <td>8</td>
+             <td>Nintendo 64 Console (Renewed)</td>
+             <td>A revolutionary console for gaming.</td>
+             <td>$149.99</td>
+             <td>Console</td>
+             <td><img class="admin-nav-img" src="https://cdn11.bigcommerce.com/s-ymgqt/images/stencil/1280x1280/products/31143/60530/N64System_Black__20860.1712781436.jpg?c=2" alt="Product Image"></td>
+             <td><a href="admin-product-edit.html?id=8">Edit</a> | <a href="#">Delete</a> | <a href="#">Archive</a></td>
+         </tr>
+
+         <tr>
+             <td>9</td>
+             <td>Nintendo Switch 2</td>
+             <td>A revolutionary console for gaming.</td>
+             <td>$399.99</td>
+             <td>Console</td>
+             <td><img class="admin-nav-img" src="https://assets-prd.ignimgs.com/2025/01/16/official-switch2-button-1737038723306.jpg" alt="Product Image"></td>
+             <td><a href="admin-product-edit.html?id=9">Edit</a> | <a href="#">Delete</a> | <a href="#">Archive</a></td>
+         </tr>
+
+         <tr>
+             <td>10</td>
+             <td>PlayStation 2</td>
+             <td>A revolutionary console for gaming.</td>
+             <td>$299.99</td>
+             <td>Console</td>
+             <td><img class="admin-nav-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/PS2-Versions.jpg/1200px-PS2-Versions.jpg" alt="Product Image"></td>
+             <td><a href="admin-product-edit.html?id=10">Edit</a> | <a href="#">Delete</a> | <a href="#">Archive</a></td>
+         </tr>
     </table>
+
+    <section class="edit-sec">
+        <h2>Add/Create a new product listing</h2>
+        <form action="#" method="post">
+            <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" name="product-name" required>
+            <br><br>
+
+            <label for="product-description">Product Description:</label>
+            <textarea id="product-description" name="product-description" required></textarea>
+            <br><br>
+
+            <label for="product-price">Product Price:</label>
+            <input type="number" id="product-price" name="product-price" required>
+            <br><br>
+
+            <label for="product-category">Product Category:</label>
+            <select id="product-category" name="product-category" required>
+                <option value="">Select a category</option>
+                <option value="Console">Console</option>
+                <option value="Accessory">Accessory</option>
+                <option value="Game">Game</option>
+            </select>
+            <br><br>
+
+            <label for="product-image">Product Image:</label>
+            <input type="file" id="product-image" name="product-image" accept="image/*" required>
+            <br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
 
     
 </body>
