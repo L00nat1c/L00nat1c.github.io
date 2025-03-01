@@ -96,3 +96,11 @@ header {
 th, tr, td {
     border: black solid 1px;
 }
+
+footer {
+    background-color: lightgrey;
+    text-align: left;
+    padding: 5px;
+    position: absolute;
+    width: 98%;
+}
