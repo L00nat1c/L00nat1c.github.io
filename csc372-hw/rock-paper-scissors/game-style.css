@@ -1,22 +1,66 @@
 #player-choice {
-    width: 95%;
-    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#cpu-choice {
-    width: 30%;
+#cpu-throw {
+    display: flex;
     justify-content: center;
 }
 
 #result-again {
     width: 60%;
+    padding: 10px;
+}
+
+.sec-border {
+    margin: 20px;
+    border: darkgray solid;
+    background-color: white;
+}
+
+.sec-border-cpu {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: darkgray solid;
+    background-color: white;
+}
+
+.sec-border-result {
+    margin-top: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: darkgray solid;
+    background-color: white;
 }
 
 img {
     max-width: 300px;
     max-height: 300px;
+    margin: 50px;
 }
 
 body {
     justify-content: center;
+    align-items: center;
+    background-color: khaki;
+}
+
+.pic-bor {
+    border: red solid;
+    margin: 3px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
