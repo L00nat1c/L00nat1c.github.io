@@ -1,0 +1,22 @@
+#player-choice {
+    width: 95%;
+    justify-content: space-between;
+}
+
+#cpu-choice {
+    width: 30%;
+    justify-content: center;
+}
+
+#result-again {
+    width: 60%;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+body {
+    justify-content: center;
+}
