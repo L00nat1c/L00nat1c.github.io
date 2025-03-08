@@ -63,6 +63,9 @@ function gameWinner(player, computer) {
                 resultW.textContent = "Player Wins";
             }
         }
+        else{
+            resultW.textContent = "Error";
+        }
 }
 
 function difPicture(counter) {
