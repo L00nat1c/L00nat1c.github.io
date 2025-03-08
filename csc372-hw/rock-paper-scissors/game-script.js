@@ -1,8 +1,8 @@
 const choices = ["rock", "paper", "scissors"];
 const allPictures = [
-    "https://l00nat1c.github.io\csc372-hw\rock-paper-scissors\game-images\rock.PNG",
-    "https://l00nat1c.github.io\csc372-hw\rock-paper-scissors\game-images\paper.PNG",
-    "https://l00nat1c.github.io\csc372-hw\rock-paper-scissors\game-images\scissors.PNG"
+    "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/rock.PNG",
+    "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/paper.PNG",
+    "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/scissors.PNG"
 ]
 const pAgainBut = document.getElementById('p-again');
 pAgainBut.addEventListener('click', playGameAgain);
@@ -64,7 +64,7 @@ function gameWinner(player, computer) {
             }
         }
         else{
-            resultW.textContent = "Error" + " " + player;
+            resultW.textContent = "Error" + " " + computer;
         }
 }
 
