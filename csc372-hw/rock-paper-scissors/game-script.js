@@ -12,7 +12,7 @@ function playGame() {
     const rockBut = document.getElementById('rock');
     const papBut = document.getElementById('paper');
     const sciBut = document.getElementById('scissors');
-    const cpuThr = document.getElementById('cpu-pic');
+    
     const playerOpt = [rockBut, papBut, sciBut];
 
     for (let index = 0; index < playerOpt.length; index++) {
@@ -23,13 +23,12 @@ function playGame() {
 }
 
 function gameTurn(event) {
+    const cpuThr = document.getElementById('cpu-pic');
     const playerHand = event.currentTarget;
     playerHand.style.border = "5px solid red";
 
     var cpuChoice = Math.floor(Math.random() * 3);
 
-    var counter = 0;
-    const cpuChoosing = setInterval(difPicture(counter), setTimeout(clearInterval(cpuChoosing), 3000));
     cpuThr.src = allPictures[cpuChoice];
 
     gameWinner(playerHand.src, cpuChoice.src);
