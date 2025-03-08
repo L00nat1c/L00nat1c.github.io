@@ -1,8 +1,8 @@
 const choices = ["rock", "paper", "scissors"];
 const allPictures = [
-    "\csc372-hw\rock-paper-scissors\game-images\rock.PNG",
-    "\csc372-hw\rock-paper-scissors\game-images\paper.PNG",
-    "\csc372-hw\rock-paper-scissors\game-images\scissors.PNG"
+    "https://l00nat1c.github.io\csc372-hw\rock-paper-scissors\game-images\rock.PNG",
+    "https://l00nat1c.github.io\csc372-hw\rock-paper-scissors\game-images\paper.PNG",
+    "https://l00nat1c.github.io\csc372-hw\rock-paper-scissors\game-images\scissors.PNG"
 ]
 const pAgainBut = document.getElementById('p-again');
 pAgainBut.addEventListener('click', playGameAgain);
@@ -56,7 +56,7 @@ function gameWinner(player, computer) {
             }
         }
         else if (player == "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/scissors.PNG") {
-            if (computer == "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/rock.PNG") {
+            if (computer == "hhttps://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/rock.PNG") {
                 resultW.textContent = "Computer Wins";
             }
             else {
