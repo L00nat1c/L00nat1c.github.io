@@ -79,7 +79,7 @@ function difPicture(counter) {
 }
 
 function playGameAgain(event) {
-    window.location.reload;
+    window.location.reload();
 }
 
 playGame();
