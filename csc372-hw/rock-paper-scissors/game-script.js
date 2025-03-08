@@ -31,7 +31,7 @@ function gameTurn(event) {
 
     cpuThr.src = allPictures[cpuChoice];
 
-    gameWinner(playerHand.src, cpuChoice.src);
+    gameWinner(playerHand.src, cpuThr.src);
 }
 
 function gameWinner(player, computer) {
@@ -39,24 +39,24 @@ function gameWinner(player, computer) {
         if (player == computer) {
             resultW.textContent = "Tie";
         }
-        else if (player == "\csc372-hw\rock-paper-scissors\game-images\rock.PNG") {
-            if (computer == "\csc372-hw\rock-paper-scissors\game-images\paper.PNG") {
+        else if (player == "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/rock.PNG") {
+            if (computer == "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/paper.PNG") {
                 resultW.textContent = "Computer Wins";
             }
             else {
                 resultW.textContent = "Player Wins";
             }
         }
-        else if (player == "\csc372-hw\rock-paper-scissors\game-images\paper.PNG") {
-            if (computer == "\csc372-hw\rock-paper-scissors\game-images\scissors.PNG") {
+        else if (player == "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/paper.PNG") {
+            if (computer == "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/scissors.PNG") {
                 resultW.textContent = "Computer Wins";
             }
             else {
                 resultW.textContent = "Player Wins";
             }
         }
-        else if (player == "\csc372-hw\rock-paper-scissors\game-images\scissors.PNG") {
-            if (computer == "\csc372-hw\rock-paper-scissors\game-images\rock.PNG") {
+        else if (player == "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/scissors.PNG") {
+            if (computer == "https://l00nat1c.github.io/csc372-hw/rock-paper-scissors/game-images/rock.PNG") {
                 resultW.textContent = "Computer Wins";
             }
             else {
@@ -64,7 +64,7 @@ function gameWinner(player, computer) {
             }
         }
         else{
-            resultW.textContent = "Error";
+            resultW.textContent = "Error" + " " + player;
         }
 }
 
