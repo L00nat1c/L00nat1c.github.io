@@ -4,6 +4,8 @@ const allPictures = [
     "\csc372-hw\rock-paper-scissors\game-images\paper.PNG",
     "\csc372-hw\rock-paper-scissors\game-images\scissors.PNG"
 ]
+const pAgainBut = document.getElementById('p-again');
+pAgainBut.addEventListener('click', playGameAgain);
 
 
 function playGame() {
@@ -72,6 +74,10 @@ function difPicture(counter) {
         cpuThr.src = allPictures[counter];
         counter++;
     }
+}
+
+function playGameAgain(event) {
+    window.location.reload;
 }
 
 playGame();
