@@ -19,4 +19,4 @@ function getRepos() {
 }
 
 let myRepos = getRepos();
-console.log('Repos we just fetched: ', myRepos)
+console.log('Repos we just fetched: ', myRepos);

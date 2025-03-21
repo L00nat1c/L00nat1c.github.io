@@ -1,9 +1,13 @@
 .repo_container_list {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
 
     
 }
 
 .repo_container_item {
+    width: 20%;
 
     
 }
